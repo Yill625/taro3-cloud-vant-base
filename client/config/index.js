@@ -21,15 +21,19 @@ const config = {
   copy: {
     patterns: [
       {
-        from: 'src/components/vant-weapp/dist/wxs/',
+        from: 'vant-weapp/dist/wxs/',
         to: 'dist/components/vant-weapp/wxs/',
       },
       {
-        from: 'src/components/vant-weapp/dist/common/index.wxss',
+        from: 'vant-weapp/dist/common/index.wxss',
         to: 'dist/components/vant-weapp/common/index.wxss',
       },
       {
-        from: 'src/components/vant-weapp/dist/icon/computed.wxs',
+        from: 'vant-weapp/dist/',
+        to: 'src/components/vant-weapp/',
+      },
+      {
+        from: 'vant-weapp/dist/icon/computed.wxs',
         to: 'dist/components/vant-weapp/icon/computed.wxs',
       },
     ],

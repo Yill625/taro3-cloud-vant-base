@@ -1,0 +1,3 @@
+[submodule "client/vant-weapp"]
+	path = client/vant-weapp
+	url = https://github.com/youzan/vant-weapp.git

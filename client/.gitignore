@@ -1,0 +1,7 @@
+# https://www.jianshu.com/p/9000cd49822c 子模块的处理
+dist/
+deploy_versions/
+.temp/
+.rn_temp/
+node_modules/
+.DS_Store

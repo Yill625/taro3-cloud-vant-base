@@ -41,5 +41,30 @@
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
   "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
-  "condition": {}
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": 1044,
+          "shareInfo": {
+            "groupName": "测试模拟群1",
+            "shareName": "mEIwHAarzYFYOKjWJm9Za7jcD79Go2YrwL8WJ53esCQ@cr4dev",
+            "shareKey": "Gfl4YqI9laVnOBASbwfHouaUXHJjJ0UQY8uU0-eIjK7EzAkx1iPeqRNl8v0wX3Is6727SKKOZ8fJTnUg8cDDbw~~"
+          }
+        }
+      ]
+    }
+  }
 }
